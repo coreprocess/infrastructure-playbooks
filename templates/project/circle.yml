@@ -5,7 +5,7 @@ machine:
   services:
     - docker
   post:
-    - curl -q -f -L -o infrastructure-playbooks.zip https://github.com/core-process/infrastructure-playbooks/archive/master.zip && unzip infrastructure-playbooks.zip && bash ./infrastructure-playbooks-master/setup-circleci-env.sh
+    - curl -q -f -L -o infrastructure-playbooks.zip https://github.com/coreprocess/infrastructure-playbooks/archive/master.zip && unzip infrastructure-playbooks.zip && bash ./infrastructure-playbooks-master/setup-circleci-env.sh
 
 # build project
 compile:

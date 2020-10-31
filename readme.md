@@ -3,8 +3,8 @@
 This project provides a set of Ansible playbooks for a Docker-centric world. Use them to set up servers and projects on top of it. It supports logging and backup out of the box.
 
 Please have a look at the following projects too:
-- [infrastructure-playbooks/templates/inventory](https://github.com/core-process/infrastructure-playbooks/tree/master/templates/inventory)
-- [linux-unattended-installation](https://github.com/core-process/linux-unattended-installation)
+- [infrastructure-playbooks/templates/inventory](https://github.com/coreprocess/infrastructure-playbooks/tree/master/templates/inventory)
+- [linux-unattended-installation](https://github.com/coreprocess/linux-unattended-installation)
 
 ## Setup
 
@@ -21,12 +21,12 @@ Clone or pull the latest playbooks:
 
 ```sh
 mkdir workspace && cd workspace
-git clone https://github.com/core-process/infrastructure-playbooks.git
+git clone https://github.com/coreprocess/infrastructure-playbooks.git
 ```
 
 ## Manage the Inventory
 
-Initialize your Ansible inventory by using the following template: [infrastructure-playbooks/templates/inventory](https://github.com/core-process/infrastructure-playbooks/tree/master/templates/inventory)
+Initialize your Ansible inventory by using the following template: [infrastructure-playbooks/templates/inventory](https://github.com/coreprocess/infrastructure-playbooks/tree/master/templates/inventory)
 
 ## Manage a Server
 
